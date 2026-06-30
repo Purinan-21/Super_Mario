@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Run</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SUPER MARIO RUN</h1>
+
+    <div class="game-wrap">
+        <canvas id="board" width="800" height="400"></canvas>
+        <div id="startScreen" class="overlay">
+            <p>กด <span class="key">SPACE</span> หรือแตะหน้าจอ เพื่อเริ่มกระโดด</p>
+        </div>
+    </div>
+
+    <p class="instructions">
+        <span class="key">SPACE</span> / <span class="key">↑</span> / แตะหน้าจอ = กระโดด &nbsp;|&nbsp;
+        มี <span class="key">3</span> ชีวิต &nbsp;|&nbsp;
+        เมื่อแพ้แล้วกด <span class="key">SPACE</span> เพื่อเล่นใหม่ (จนกว่าชีวิตจะหมด)
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
